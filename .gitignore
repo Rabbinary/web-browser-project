@@ -1,0 +1,27 @@
+# .gitignore para proyecto Rust
+
+# Archivos y carpetas generadas por Cargo
+target/
+Cargo.lock
+
+# Archivos de configuración de editores de código
+.idea/
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación o binarios
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
